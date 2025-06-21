@@ -1,96 +1,182 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-
 .container {
-    max-width: 1080px;
-    margin: 0 auto;
+  max-width: 1080px;
+  margin: 0 auto;
 }
 
 .header {
-    background-color: #1a1a1a;
-    padding-top: 36px;
-    padding-bottom: 200px;
+  background-color: #1a1a1a;
+  padding-top: 36px;
+  padding-bottom: 200px;
 }
 
 .navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: #1a1a1a;
-    font-weight: bold;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #1a1a1a;
+  font-weight: bold;
 }
 
 .navigation-holder {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    flex-grow: 1;
-    justify-content: space-evenly;
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
 }
 
-.nav-links a{
-    text-decoration: none;
-    color: #d1d1d1;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 13px;
+.nav-links a {
+  text-decoration: none;
+  color: #d1d1d1;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px;
 }
 
 .header-title {
-    margin-top: 110px;
-    margin-bottom: 80px;
-    position: relative;
+  margin-top: 110px;
+  margin-bottom: 80px;
+  position: relative;
 }
 
 .header-subtitle-text {
-    display: inline-block;
-    border-left: 1px solid #8c8c8c;
-    padding: 8px 0 8px 20px;
-    color: #8c8c8c;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 13px;
-    letter-spacing: 1.5px;
-    margin-bottom: 13px;
+  display: inline-block;
+  border-left: 1px solid #8c8c8c;
+  padding: 8px 0 8px 20px;
+  color: #8c8c8c;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  margin-bottom: 13px;
 }
 
 .header-title-text {
-    font-size: 90px;
-    font-weight: bold;
-    color: white;
-    max-width: 620px;
-    line-height: 1;
+  font-size: 90px;
+  font-weight: bold;
+  color: white;
+  max-width: 620px;
+  line-height: 1;
 }
 
 .join {
-    background-color: #febe02;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 110px;
-    height: 110px;
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    text-decoration: none;
-    color: #1a1a1a;
-    font-weight: bold;
-    border-radius: 6px;
+  background-color: #febe02;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 110px;
+  height: 110px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  text-decoration: none;
+  color: #1a1a1a;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.join-text {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.header-info-block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  gap: 40px;
+}
+
+.card-info {
+  max-width: 361px;
+}
+
+.card-info-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.info-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-top: 15px;
+}
+
+.info-subtitle {
+  font-size: 13px;
+  color: #8c8c8c;
+  font-weight: bold;
+  display: block;
+  margin-top: 4px;
+}
+
+.card-about {
+  flex-grow: 1;
+}
+
+.about-subtitle-text {
+  display: inline-block;
+  border-left: 1px solid white;
+  padding: 8px 0 8px 20px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  margin-bottom: 13px;
+}
+
+.about-desc {
+  color: #d1d1d1;
+  max-width: 300px;
+  font-size: 14px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.audio-block {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.audio-track {
+  height: 40px;
+}
+
+.play-btn img {
+  width: 30px;
+  height: 30px;
+}
+
+.about-title {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 4px;
+}
+
+.about-subtitle {
+  font-size: 13px;
+  color: #8c8c8c;
+  font-weight: bold;
 }
