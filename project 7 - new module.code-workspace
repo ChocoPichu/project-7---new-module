@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "project 7 - new module",
+			"path": "."
+		},
+		{
+			"name": "img",
+			"path": "../../../../Downloads/img/img"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "project 7 - new module"
+	}
+}

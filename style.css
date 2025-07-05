@@ -255,11 +255,11 @@
 }
 
 .card-big {
-  width: 540;
+  width: 540px;
 }
 
 .card-small {
-  width: 360;
+  width: 360px;
 }
 
 .img-container {
@@ -323,3 +323,149 @@
 .img-card-2 {background-image: url('./img/card-2.png');}
 .img-card-3 {background-image: url('./img/card-3.png');}
 .img-card-4 {background-image: url('./img/card-4.png');}
+
+.footer {
+  background-color: #1a1a1a;
+  padding: 100px 0;
+}
+
+.footer-title {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 60px;
+  max-width: 620px;
+  line-height: 1.1;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-card {
+  width: calc(25% - 15px);
+  border-bottom: 1px solid white;
+  padding-bottom: 40px;
+}
+
+.footer-card.no-border {
+  border-bottom: none;
+}
+
+.footer-course-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.footer-course-desc {
+  font-size: 14px;
+  color: #8c8c8c;
+  line-height: 1.7;
+}
+
+@media screen and (max-width: 1120px) {
+  .header-title-text {
+    font-size: 64px;
+  }
+
+  .footer-title {
+    font-size: 48px;
+  }
+
+  .footer-card {
+    width: calc(50% - 10px);
+  }
+
+  .course-row {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .card-big, .card-small {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .header {
+    padding-bottom: 150px;
+  }
+
+  .header-title-text {
+    font-size: 48px;
+  }
+
+  .navigation-holder {
+    gap: 20px;
+  }
+
+  .footer-title {
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 756px) {
+  .navigation {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .header-info-block {
+    flex-direction: column;
+  }
+
+  .audio-holder {
+    width: 100%;
+  }
+
+  .footer-card {
+    width: 100%;
+    border-bottom: 1px solid white;
+  }
+
+  .footer-card.no-border {
+    border-bottom: none;
+  }
+
+  .footer-title {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 578px) {
+  .header {
+    padding-bottom: 120px;
+  }
+
+  .header-title-text {
+    font-size: 36px;
+  }
+
+  .join {
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+  }
+
+  .join-text {
+    font-size: 12px;
+  }
+
+  .footer-title {
+    font-size: 30px;
+  }
+
+  .navigation-holder {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links a {
+    font-size: 12px;
+  }
+}
